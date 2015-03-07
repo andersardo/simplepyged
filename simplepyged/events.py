@@ -32,6 +32,7 @@ class Event:
         self.type = self._get_value('TYPE')
         self.date = self._get_value('DATE')
         self.place = self._get_value('PLAC')
+        self.source = self._get_value('SOUR')
 
     def _get_value(self, tag):
         """ Returns value of a child tag"""
